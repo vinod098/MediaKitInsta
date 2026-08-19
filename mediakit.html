@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinod Gangwar | @unfiltered.vinod — Media Kit 2026</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { font-family: 'Inter', sans-serif; box-sizing: border-box; }
+  .font-display { font-family: 'Space Grotesk', sans-serif; }
+  body { background: #0A0E14; color: #FFFFFF; }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #00D09C 0%, #FFD700 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .card {
+    background: linear-gradient(135deg, #141920 0%, #0F1419 100%);
+    border: 1px solid #ffffff12;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+  }
+  .card:hover { border-color: #00D09C40; box-shadow: 0 8px 32px #00D09C10; transform: translateY(-2px); }
+  .card-gold:hover { border-color: #FFD70040; box-shadow: 0 8px 32px #FFD70010; }
+
+  .glow-border {
+    position: relative; background: #141920; border-radius: 16px;
+  }
+  .glow-border::before {
+    content: ''; position: absolute; inset: 0; border-radius: 16px; padding: 1px;
+    background: linear-gradient(135deg, #00D09C50, #FFD70050);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+  }
+  .chip {
+    background: #00D09C12; border: 1px solid #00D09C35;
+    border-radius: 999px; padding: 4px 12px;
+    font-size: 12px; font-weight: 600; color: #00D09C;
+  }
+  .chip-gold { background: #FFD70012; border-color: #FFD70035; color: #FFD700; }
+  .chip-purple { background: #A855F712; border-color: #A855F735; color: #A855F7; }
+
+  .progress-bar {
+    height: 6px; border-radius: 999px; background: #ffffff10;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%; border-radius: 999px;
+    background: linear-gradient(90deg, #00D09C, #FFD700);
+  }
+
+  .hero-bg {
+    background: radial-gradient(ellipse 80% 60% at 50% -10%, #00D09C18 0%, transparent 70%),
+                radial-gradient(ellipse 60% 40% at 90% 50%, #FFD70010 0%, transparent 60%),
+                #0A0E14;
+  }
+
+  .section-divider {
+    border: none; border-top: 1px solid #ffffff08; margin: 0;
+  }
+
+  .avatar-ring {
+    background: linear-gradient(135deg, #00D09C, #FFD700);
+    padding: 3px; border-radius: 50%;
+    box-shadow: 0 0 40px #00D09C30, 0 0 80px #FFD70015;
+  }
+
+  .stat-number { font-family: 'Space Grotesk', sans-serif; }
+
+  .package-featured {
+    border: 2px solid #00D09C !important;
+    background: linear-gradient(135deg, #00D09C08, #141920) !important;
+  }
+
+  .tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: #ffffff08; border: 1px solid #ffffff15;
+    border-radius: 8px; padding: 6px 12px; font-size: 13px;
+  }
+
+  @media print {
+    * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { background: #ffffff !important; color: #111111 !important; }
+
+    /* Backgrounds */
+    .hero-bg { background: #f0fdf9 !important; }
+    .card { background: #f8f9fa !important; border: 1px solid #e5e7eb !important; box-shadow: none !important; transform: none !important; }
+    .glow-border { background: #f8f9fa !important; border: 1px solid #e5e7eb !important; }
+    .glow-border::before { display: none !important; }
+    .package-featured { background: #f0fdf9 !important; border: 2px solid #00D09C !important; }
+
+    /* Text colors */
+    .text-gray-300, .text-gray-400, .text-gray-500 { color: #374151 !important; }
+    .text-white { color: #111111 !important; }
+    .gradient-text { background: none !important; -webkit-text-fill-color: #00a87a !important; color: #00a87a !important; }
+
+    /* Chips & tags */
+    .chip { background: #e6faf4 !important; border: 1px solid #00D09C !important; color: #00a87a !important; }
+    .chip-gold { background: #fffbeb !important; border-color: #FFD700 !important; color: #b45309 !important; }
+    .chip-purple { background: #faf5ff !important; border-color: #A855F7 !important; color: #7c3aed !important; }
+    .tag { background: #f3f4f6 !important; border: 1px solid #d1d5db !important; color: #111 !important; }
+
+    /* Progress bars */
+    .progress-bar { background: #e5e7eb !important; }
+    .progress-fill { background: linear-gradient(90deg, #00D09C, #FFD700) !important; }
+
+    /* Inline colored backgrounds */
+    [style*="background:#00D09C"], [style*="background: #00D09C"] { background: #e6faf4 !important; }
+    [style*="background:#FFD700"], [style*="background: #FFD700"] { background: #fffbeb !important; }
+    [style*="border-color:#FFD700"] { border-color: #FFD700 !important; }
+    [style*="border-color:#00D09C"] { border-color: #00D09C !important; }
+
+    /* Section divider */
+    .section-divider { border-top: 1px solid #e5e7eb !important; }
+
+    /* Avatar ring */
+    .avatar-ring { box-shadow: none !important; }
+
+    /* Hide buttons */
+    .no-print { display: none !important; }
+
+    /* Page breaks */
+    section { page-break-inside: avoid; }
+    .card { page-break-inside: avoid; }
+  }
+
+  html { scroll-behavior: smooth; }
+</style>
+</head>
+<body class="antialiased">
+
+<!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+<header class="hero-bg relative overflow-hidden">
+  <div class="max-w-6xl mx-auto px-6 lg:px-8 py-14 lg:py-20">
+    <div class="flex flex-col lg:flex-row items-center gap-10">
+
+      <!-- Avatar -->
+      <div class="flex-shrink-0 order-1 lg:order-2">
+        <div class="avatar-ring w-44 h-44 lg:w-52 lg:h-52">
+          <div class="w-full h-full rounded-full bg-[#141920] overflow-hidden flex items-center justify-center">
+            <img src="Pic.jpg" alt="Vinod Gangwar"
+              class="w-full h-full object-cover"
+              onerror="this.outerHTML='<div class=\'w-full h-full flex items-center justify-center\'><span class=\'font-display text-5xl font-bold gradient-text\'>VG</span></div>'">
+          </div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="order-2 lg:order-1 text-center lg:text-left flex-1">
+        <div class="flex flex-wrap justify-center lg:justify-start gap-2 mb-5">
+          <span class="chip"><i class="fa-solid fa-circle text-[8px] animate-pulse mr-1"></i>Open for Partnerships</span>
+          <span class="chip chip-gold">Finance Creator</span>
+          <span class="chip chip-purple">Hindi Content</span>
+        </div>
+
+        <h1 class="font-display text-5xl lg:text-6xl font-bold mb-2 leading-tight">
+          Vinod Gangwar
+        </h1>
+        <a href="https://www.instagram.com/unfiltered.vinod/" target="_blank" rel="noopener"
+           class="text-2xl lg:text-3xl gradient-text font-semibold hover:opacity-80 transition block mb-3">
+          @unfiltered.vinod
+        </a>
+        <p class="text-gray-300 text-lg leading-relaxed max-w-xl mb-2">
+          Finance · Trading · Multiple Income Streams — explained in simple Hindi for everyday retail investors.
+        </p>
+        <div class="flex flex-wrap justify-center lg:justify-start gap-4 text-sm text-gray-400 mb-7">
+          <span><i class="fa-solid fa-location-dot text-[#00D09C] mr-1"></i>Mumbai, India</span>
+          <a href="https://www.instagram.com/unfiltered.vinod/" target="_blank" rel="noopener" class="hover:text-[#E1306C] transition"><i class="fa-brands fa-instagram text-[#E1306C] mr-1"></i>Instagram</a>
+          <span><i class="fa-solid fa-language text-[#FFD700] mr-1"></i>Hindi + English</span>
+        </div>
+
+        <div class="flex flex-wrap justify-center lg:justify-start gap-3 no-print">
+          <a href="#contact"
+             class="bg-[#00D09C] hover:bg-[#00B887] text-[#0A0E14] px-6 py-3 rounded-xl font-semibold transition-all hover:scale-105 text-sm">
+            <i class="fa-solid fa-envelope mr-2"></i>Get In Touch
+          </a>
+          <button onclick="window.print()"
+             class="bg-[#141920] border border-[#ffffff20] hover:border-[#00D09C] px-6 py-3 rounded-xl font-semibold transition-all text-sm">
+            <i class="fa-solid fa-download mr-2"></i>Save as PDF
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+<hr class="section-divider">
+
+<!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+<section class="max-w-6xl mx-auto px-6 lg:px-8 py-14">
+  <div class="glow-border p-7 lg:p-10">
+    <div class="flex items-center gap-3 mb-6">
+      <div class="w-10 h-10 rounded-xl bg-[#00D09C15] flex items-center justify-center">
+        <i class="fa-solid fa-user text-[#00D09C]"></i>
+      </div>
+      <h2 class="font-display text-2xl lg:text-3xl font-bold">About the Creator</h2>
+    </div>
+
+    <p class="text-gray-300 text-base lg:text-lg leading-relaxed mb-8 max-w-4xl">
+      Vinod Gangwar is a Mumbai-based finance content creator who breaks down complex financial topics — stock markets, trading strategies, mutual funds, and multiple income streams — into simple, relatable Hindi content. His audience is India's growing class of first-generation retail investors who want to build wealth but find English finance content intimidating.
+    </p>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="card p-4 text-center">
+        <i class="fa-solid fa-users text-[#00D09C] text-xl mb-2"></i>
+        <div class="text-xs text-gray-400 mb-1">Total Followers</div>
+        <div class="font-semibold text-sm">532 &amp; Growing</div>
+      </div>
+      <div class="card p-4 text-center">
+        <i class="fa-solid fa-map-location-dot text-[#FFD700] text-xl mb-2"></i>
+        <div class="text-xs text-gray-400 mb-1">Top City</div>
+        <div class="font-semibold text-sm">Mumbai #1</div>
+      </div>
+      <div class="card p-4 text-center">
+        <i class="fa-solid fa-language text-[#A855F7] text-xl mb-2"></i>
+        <div class="text-xs text-gray-400 mb-1">Content Language</div>
+        <div class="font-semibold text-sm">Hindi (Primary)</div>
+      </div>
+      <div class="card p-4 text-center">
+        <i class="fa-solid fa-briefcase text-[#00D09C] text-xl mb-2"></i>
+        <div class="text-xs text-gray-400 mb-1">Core Audience</div>
+        <div class="font-semibold text-sm">87.6% Male</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ CONTENT PILLARS ═══════════════════════════════ -->
+<section class="max-w-6xl mx-auto px-6 lg:px-8 pb-14">
+  <div class="text-center mb-8">
+    <h2 class="font-display text-2xl lg:text-3xl font-bold mb-2">Content <span class="gradient-text">Pillars</span></h2>
+    <p class="text-gray-400 text-sm">What the audience comes back for</p>
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+    <div class="card p-5 text-center">
+      <i class="fa-solid fa-chart-candlestick text-[#00D09C] text-2xl mb-3"></i>
+      <div class="font-semibold text-sm">Stock Market &amp; Trading</div>
+    </div>
+    <div class="card p-5 text-center">
+      <i class="fa-solid fa-coins text-[#FFD700] text-2xl mb-3"></i>
+      <div class="font-semibold text-sm">Mutual Funds &amp; SIP</div>
+    </div>
+    <div class="card p-5 text-center">
+      <i class="fa-solid fa-money-bill-trend-up text-[#00D09C] text-2xl mb-3"></i>
+      <div class="font-semibold text-sm">Multiple Income Streams</div>
+    </div>
+    <div class="card p-5 text-center">
+      <i class="fa-solid fa-piggy-bank text-[#FFD700] text-2xl mb-3"></i>
+      <div class="font-semibold text-sm">Personal Finance &amp; Savings</div>
+    </div>
+    <div class="card p-5 text-center">
+      <i class="fa-solid fa-graduation-cap text-[#A855F7] text-2xl mb-3"></i>
+      <div class="font-semibold text-sm">Finance Education</div>
+    </div>
+  </div>
+</section>
+<hr class="section-divider">
+
+<!-- ═══════════════════════════════ PERFORMANCE STATS ═══════════════════════════════ -->
+<section class="max-w-6xl mx-auto px-6 lg:px-8 py-14">
+  <div class="text-center mb-10">
+    <div class="chip inline-block mb-3">Verified Instagram Insights</div>
+    <h2 class="font-display text-2xl lg:text-4xl font-bold mb-2">
+      30-Day <span class="gradient-text">Performance</span>
+    </h2>
+    <p class="text-gray-400 text-sm">July 17 – August 17, 2026 · Instagram Insights</p>
+  </div>
+
+  <!-- Top 3 hero stats -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-5">
+
+    <div class="card p-7 text-center">
+      <div class="w-12 h-12 rounded-xl bg-[#00D09C15] flex items-center justify-center mx-auto mb-4">
+        <i class="fa-solid fa-eye text-[#00D09C] text-xl"></i>
+      </div>
+      <div class="stat-number text-4xl lg:text-5xl font-bold mb-1">3.29L</div>
+      <div class="text-gray-400 text-sm mb-2">Total Views</div>
+      <div class="chip text-xs mx-auto inline-block">~11K views/day</div>
+    </div>
+
+    <div class="card p-7 text-center" style="border-color:#FFD70030">
+      <div class="w-12 h-12 rounded-xl bg-[#FFD70015] flex items-center justify-center mx-auto mb-4">
+        <i class="fa-solid fa-heart text-[#FFD700] text-xl"></i>
+      </div>
+      <div class="stat-number text-4xl lg:text-5xl font-bold mb-1">23,030</div>
+      <div class="text-gray-400 text-sm mb-2">Total Interactions</div>
+      <div class="chip chip-gold text-xs mx-auto inline-block">7% Engagement Rate</div>
+    </div>
+
+    <div class="card p-7 text-center">
+      <div class="w-12 h-12 rounded-xl bg-[#00D09C15] flex items-center justify-center mx-auto mb-4">
+        <i class="fa-solid fa-user-plus text-[#00D09C] text-xl"></i>
+      </div>
+      <div class="stat-number text-4xl lg:text-5xl font-bold mb-1">532</div>
+      <div class="text-gray-400 text-sm mb-2">Total Followers</div>
+      <div class="chip text-xs mx-auto inline-block"><i class="fa-solid fa-arrow-trend-up mr-1"></i>+386 This Month</div>
+    </div>
+
+  </div>
+
+  <!-- Secondary stats row -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-5">
+
+    <!-- Reach breakdown -->
+    <div class="card p-7">
+      <div class="flex items-center gap-3 mb-5">
+        <div class="w-10 h-10 rounded-xl bg-[#FFD70015] flex items-center justify-center">
+          <i class="fa-solid fa-chart-pie text-[#FFD700]"></i>
+        </div>
+        <div>
+          <div class="font-semibold">Audience Reach Breakdown</div>
+          <div class="text-xs text-gray-500">Who is seeing the content</div>
+        </div>
+      </div>
+      <div class="mb-4">
+        <div class="flex justify-between text-sm mb-2">
+          <span class="text-gray-300">Non-Followers (New Audience)</span>
+          <span class="font-bold text-[#00D09C]">97.4%</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:97.4%"></div></div>
+      </div>
+      <div class="mb-5">
+        <div class="flex justify-between text-sm mb-2">
+          <span class="text-gray-300">Existing Followers</span>
+          <span class="font-semibold text-gray-400">2.6%</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:2.6%;background:#ffffff30"></div></div>
+      </div>
+      <div class="bg-[#00D09C08] border border-[#00D09C25] rounded-xl p-3 text-xs text-[#00D09C] font-semibold">
+        <i class="fa-solid fa-bullseye mr-2"></i>Every brand campaign reaches FRESH, untapped users
+      </div>
+    </div>
+
+    <!-- Content format performance -->
+    <div class="card p-7">
+      <div class="flex items-center gap-3 mb-5">
+        <div class="w-10 h-10 rounded-xl bg-[#00D09C15] flex items-center justify-center">
+          <i class="fa-solid fa-video text-[#00D09C]"></i>
+        </div>
+        <div>
+          <div class="font-semibold">Content Format Performance</div>
+          <div class="text-xs text-gray-500">Views by format</div>
+        </div>
+      </div>
+      <div class="mb-4">
+        <div class="flex justify-between text-sm mb-2">
+          <span class="text-gray-300">Reels</span>
+          <span class="font-bold text-[#00D09C]">327K views</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:99.6%"></div></div>
+      </div>
+      <div class="mb-5">
+        <div class="flex justify-between text-sm mb-2">
+          <span class="text-gray-300">Stories</span>
+          <span class="font-semibold text-gray-400">1.3K views</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:0.4%;background:#ffffff30"></div></div>
+      </div>
+      <div class="bg-[#FFD70008] border border-[#FFD70025] rounded-xl p-3 text-xs text-[#FFD700] font-semibold">
+        <i class="fa-solid fa-fire mr-2"></i>Reels dominate — ideal format for brand integrations
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Engagement benchmark -->
+  <div class="card p-6 lg:p-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+      <div>
+        <div class="text-xs text-gray-500 mb-1 uppercase tracking-wider">Engagement Rate</div>
+        <div class="stat-number text-3xl font-bold text-[#00D09C]">7%</div>
+        <div class="text-xs text-gray-400 mt-1">@unfiltered.vinod</div>
+      </div>
+      <div class="border-x border-[#ffffff08]">
+        <div class="text-xs text-gray-500 mb-1 uppercase tracking-wider">Industry Average</div>
+        <div class="stat-number text-3xl font-bold text-gray-500">2–3%</div>
+        <div class="text-xs text-gray-400 mt-1">Finance niche benchmark</div>
+      </div>
+      <div>
+        <div class="text-xs text-gray-500 mb-1 uppercase tracking-wider">Above Industry</div>
+        <div class="stat-number text-3xl font-bold text-[#FFD700]">3.5×</div>
+        <div class="text-xs text-gray-400 mt-1">Higher than average</div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="section-divider">
+
+<!-- ═══════════════════════════════ KEY INSIGHTS ═══════════════════════════════ -->
+<section class="max-w-6xl mx-auto px-6 lg:px-8 py-14">
+  <div class="text-center mb-10">
+    <h2 class="font-display text-2xl lg:text-4xl font-bold mb-2">
+      Why Brands <span class="gradient-text">Choose This Channel</span>
+    </h2>
+    <p class="text-gray-400 text-sm">3 reasons your campaign will perform</p>
+  </div>
+
+  <!-- Brand-facing audience snapshot -->
+  <div class="card p-5 mb-8" style="background:linear-gradient(135deg,#FFD70008,#00D09C08);border-color:#FFD70030">
+    <div class="text-xs text-center text-gray-400 uppercase tracking-widest mb-4">Verified Audience Snapshot</div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      <div>
+        <div class="stat-number text-2xl font-bold text-[#FFD700]">46.3%</div>
+        <div class="text-xs text-gray-400 mt-1">Aged 25–34</div>
+        <div class="text-xs text-[#FFD700] font-semibold">#1 age group</div>
+      </div>
+      <div>
+        <div class="stat-number text-2xl font-bold text-[#00D09C]">87.6%</div>
+        <div class="text-xs text-gray-400 mt-1">Male audience</div>
+        <div class="text-xs text-[#00D09C] font-semibold">Finance-ready</div>
+      </div>
+      <div>
+        <div class="stat-number text-2xl font-bold text-[#FFD700]">68.2%</div>
+        <div class="text-xs text-gray-400 mt-1">Aged 18–34</div>
+        <div class="text-xs text-[#FFD700] font-semibold">Peak earning age</div>
+      </div>
+      <div>
+        <div class="stat-number text-2xl font-bold text-[#00D09C]">5 Cities</div>
+        <div class="text-xs text-gray-400 mt-1">Mumbai · Delhi · Pune</div>
+        <div class="text-xs text-[#00D09C] font-semibold">Top financial hubs</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
+    <div class="glow-border p-7 text-center">
+      <div class="w-16 h-16 rounded-2xl bg-[#00D09C15] flex items-center justify-center mx-auto mb-4">
+        <i class="fa-solid fa-rocket text-[#00D09C] text-2xl"></i>
+      </div>
+      <h3 class="font-display text-lg font-bold mb-2">Viral Potential</h3>
+      <p class="text-gray-400 text-sm leading-relaxed">
+        Multiple Reels crossing <span class="text-white font-semibold">20K+ views</span> organically — strong saves &amp; shares signal content that spreads.
+      </p>
+    </div>
+
+    <div class="glow-border p-7 text-center">
+      <div class="w-16 h-16 rounded-2xl bg-[#FFD70015] flex items-center justify-center mx-auto mb-4">
+        <i class="fa-solid fa-shield-heart text-[#FFD700] text-2xl"></i>
+      </div>
+      <h3 class="font-display text-lg font-bold mb-2">High Trust Audience</h3>
+      <p class="text-gray-400 text-sm leading-relaxed">
+        <span class="text-white font-semibold">7% engagement</span> means the audience actively learns, saves, and acts on the content — not passive scrollers.
+      </p>
+    </div>
+
+    <div class="glow-border p-7 text-center">
+      <div class="w-16 h-16 rounded-2xl bg-[#A855F715] flex items-center justify-center mx-auto mb-4">
+        <i class="fa-solid fa-compass text-[#A855F7] text-2xl"></i>
+      </div>
+      <h3 class="font-display text-lg font-bold mb-2">Explore Page Reach</h3>
+      <p class="text-gray-400 text-sm leading-relaxed">
+        <span class="text-white font-semibold">97%+ non-follower reach</span> — your brand gets in front of completely new, qualified users every time.
+      </p>
+    </div>
+  </div>
+
+  <!-- Audience profile -->
+  <div class="glow-border p-7 lg:p-10">
+    <div class="flex items-center gap-3 mb-7">
+      <div class="w-10 h-10 rounded-xl bg-[#FFD70015] flex items-center justify-center">
+        <i class="fa-solid fa-chart-bar text-[#FFD700]"></i>
+      </div>
+      <h3 class="font-display text-xl font-bold">Audience Profile</h3>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+      <!-- Age Group -->
+      <div>
+        <div class="text-xs text-gray-500 uppercase tracking-wider mb-3">Age Group</div>
+        <div class="space-y-2">
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">13–17</span><span class="text-gray-500">2%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:2%;background:#ffffff20"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span>18–24</span><span class="text-[#00D09C]">21.9%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:21.9%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span class="font-bold text-white">25–34 ⭐</span><span class="font-bold text-[#FFD700]">46.3%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:46.3%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span>35–44</span><span class="text-[#00D09C]">19.9%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:19.9%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">45–54</span><span class="text-gray-500">7%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:7%;background:#ffffff20"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">55+</span><span class="text-gray-500">2.5%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:2.5%;background:#ffffff20"></div></div>
+          </div>
+        </div>
+        <div class="mt-3 p-2 bg-[#FFD70010] border border-[#FFD70030] rounded-lg text-xs text-[#FFD700] font-semibold">
+          68.2% aged 18–34 — peak investing age
+        </div>
+      </div>
+
+      <!-- Top Cities -->
+      <div>
+        <div class="text-xs text-gray-500 uppercase tracking-wider mb-3">Top Cities</div>
+        <div class="space-y-3">
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span class="font-semibold text-white">Mumbai</span><span class="font-bold text-[#00D09C]">13.7%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span>Delhi</span><span class="text-[#00D09C]">7.1%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:51.8%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span>Pune</span><span class="text-[#00D09C]">6.6%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:48.2%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span>Bangalore</span><span class="text-[#FFD700]">4.4%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:32.1%;background:linear-gradient(90deg,#FFD700,#00D09C)"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1"><span>Surat</span><span class="text-[#FFD700]">3.8%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:27.7%;background:linear-gradient(90deg,#FFD700,#00D09C)"></div></div>
+          </div>
+        </div>
+        <div class="mt-3 p-2 bg-[#00D09C10] border border-[#00D09C30] rounded-lg text-xs text-[#00D09C] font-semibold">
+          India's top 5 financial hubs
+        </div>
+      </div>
+
+      <!-- Gender -->
+      <div>
+        <div class="text-xs text-gray-500 uppercase tracking-wider mb-3">Gender Split</div>
+        <div class="space-y-3">
+          <div>
+            <div class="flex justify-between text-xs mb-2"><span class="flex items-center gap-1"><i class="fa-solid fa-mars text-[#00D09C]"></i> Male</span><span class="font-bold text-[#00D09C]">87.6%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:87.6%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-2"><span class="flex items-center gap-1"><i class="fa-solid fa-venus text-[#FFD700]"></i> Female</span><span class="text-[#FFD700]">12.4%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:12.4%;background:#FFD700"></div></div>
+          </div>
+        </div>
+        <div class="mt-4 p-2 bg-[#00D09C10] border border-[#00D09C30] rounded-lg text-xs text-[#00D09C] font-semibold">
+          Highly male-skewed — ideal for trading apps &amp; brokers
+        </div>
+      </div>
+
+      <!-- Mindset -->
+      <div>
+        <div class="text-xs text-gray-500 uppercase tracking-wider mb-3">Audience Mindset</div>
+        <div class="space-y-2 text-sm text-gray-300">
+          <div class="flex items-center gap-2"><i class="fa-solid fa-circle text-[#00D09C] text-[6px]"></i>First-gen investors</div>
+          <div class="flex items-center gap-2"><i class="fa-solid fa-circle text-[#00D09C] text-[6px]"></i>Salaried professionals</div>
+          <div class="flex items-center gap-2"><i class="fa-solid fa-circle text-[#FFD700] text-[6px]"></i>College students</div>
+          <div class="flex items-center gap-2"><i class="fa-solid fa-circle text-[#FFD700] text-[6px]"></i>Aspiring traders</div>
+          <div class="flex items-center gap-2"><i class="fa-solid fa-circle text-gray-500 text-[6px]"></i>Hindi-first users</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<hr class="section-divider">
+
+<!-- ═══════════════════════════════ PACKAGES ═══════════════════════════════ -->
+<section class="max-w-6xl mx-auto px-6 lg:px-8 py-14">
+  <div class="text-center mb-10">
+    <h2 class="font-display text-2xl lg:text-4xl font-bold mb-2">
+      Collaboration <span class="gradient-text">Packages</span>
+    </h2>
+    <p class="text-gray-400 text-sm">Transparent pricing · Customizable for your goals</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
+
+    <!-- Reel -->
+    <div class="card p-7">
+      <div class="flex items-start justify-between mb-4">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <i class="fa-brands fa-instagram text-[#E1306C] text-lg"></i>
+            <h3 class="font-display text-lg font-bold">1× Instagram Reel</h3>
+          </div>
+          <p class="text-gray-400 text-sm">Concept · Script · Shoot · Edit · Post</p>
+        </div>
+        <div class="text-right">
+          <div class="stat-number text-3xl font-bold gradient-text">₹12,000</div>
+          <div class="text-xs text-gray-500">per reel</div>
+        </div>
+      </div>
+      <div class="flex flex-wrap gap-2 mt-4">
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#00D09C]"></i>Brand integration</span>
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#00D09C]"></i>CTA included</span>
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#00D09C]"></i>1 revision</span>
+      </div>
+    </div>
+
+    <!-- Stories -->
+    <div class="card p-7">
+      <div class="flex items-start justify-between mb-4">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <i class="fa-solid fa-images text-[#FFD700] text-lg"></i>
+            <h3 class="font-display text-lg font-bold">3× Story Frames</h3>
+          </div>
+          <p class="text-gray-400 text-sm">Swipe-up link · CTA · Brand mention</p>
+        </div>
+        <div class="text-right">
+          <div class="stat-number text-3xl font-bold gradient-text">₹3,000</div>
+          <div class="text-xs text-gray-500">per set</div>
+        </div>
+      </div>
+      <div class="flex flex-wrap gap-2 mt-4">
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#00D09C]"></i>Link in bio option</span>
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#00D09C]"></i>Poll / quiz CTA</span>
+      </div>
+    </div>
+
+    <!-- Combo — featured -->
+    <div class="card package-featured p-7 relative">
+      <div class="absolute -top-3 left-6 bg-[#00D09C] text-[#0A0E14] px-3 py-1 rounded-full text-xs font-bold">
+        ⭐ BEST VALUE
+      </div>
+      <div class="flex items-start justify-between mb-4 mt-2">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <i class="fa-solid fa-fire text-[#FFD700] text-lg"></i>
+            <h3 class="font-display text-lg font-bold">Reel + Story Combo</h3>
+          </div>
+          <p class="text-gray-400 text-sm">Best for conversions &amp; brand recall</p>
+        </div>
+        <div class="text-right">
+          <div class="stat-number text-3xl font-bold gradient-text">₹14,000</div>
+          <div class="text-xs text-gray-500 line-through">₹15,000</div>
+        </div>
+      </div>
+      <div class="bg-[#00D09C08] border border-[#00D09C25] rounded-xl p-3 text-xs text-[#00D09C] font-semibold mb-3">
+        <i class="fa-solid fa-tag mr-1"></i>Save ₹1,000 with combo
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#00D09C]"></i>Full reel</span>
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#00D09C]"></i>3 stories</span>
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#00D09C]"></i>Performance report</span>
+      </div>
+    </div>
+
+    <!-- CPA -->
+    <div class="card card-gold p-7">
+      <div class="flex items-start justify-between mb-4">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <i class="fa-solid fa-coins text-[#FFD700] text-lg"></i>
+            <h3 class="font-display text-lg font-bold">CPA / Performance Bonus</h3>
+          </div>
+          <p class="text-gray-400 text-sm">On top of base fee · Tracked via unique link</p>
+        </div>
+        <div class="text-right">
+          <div class="stat-number text-3xl font-bold" style="color:#FFD700">₹600</div>
+          <div class="text-xs text-gray-500">per KYC / signup</div>
+        </div>
+      </div>
+      <div class="flex flex-wrap gap-2 mt-4">
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#FFD700]"></i>UTM tracking</span>
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#FFD700]"></i>Dashboard access</span>
+        <span class="tag text-xs"><i class="fa-solid fa-check text-[#FFD700]"></i>Weekly report</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card p-5 text-center text-sm text-gray-400">
+    <i class="fa-solid fa-circle-info text-[#00D09C] mr-2"></i>
+    Custom packages available for long-term brand ambassadorships, series content, or multi-platform campaigns.
+    <a href="mailto:vikkygangwar267@gmail.com" target="_blank" class="text-[#00D09C] font-semibold ml-1 hover:underline">Let's talk →</a>
+  </div>
+</section>
+<hr class="section-divider">
+
+<!-- ═══════════════════════════════ IDEAL BRANDS ═══════════════════════════════ -->
+<section class="max-w-6xl mx-auto px-6 lg:px-8 py-14">
+  <div class="glow-border p-7 lg:p-10">
+    <div class="flex items-center gap-3 mb-7">
+      <div class="w-10 h-10 rounded-xl bg-[#FFD70015] flex items-center justify-center">
+        <i class="fa-solid fa-handshake text-[#FFD700]"></i>
+      </div>
+      <div>
+        <h2 class="font-display text-2xl font-bold">Ideal Brand Partners</h2>
+        <p class="text-xs text-gray-500">Categories that resonate with this audience</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+      <div class="tag justify-start">
+        <i class="fa-solid fa-chart-line text-[#00D09C]"></i>
+        <span class="text-sm">Stock Broking Platforms</span>
+      </div>
+      <div class="tag justify-start">
+        <i class="fa-solid fa-mobile-screen text-[#FFD700]"></i>
+        <span class="text-sm">Fintech Apps</span>
+      </div>
+      <div class="tag justify-start">
+        <i class="fa-solid fa-wrench text-[#00D09C]"></i>
+        <span class="text-sm">Trading Tools &amp; Scanners</span>
+      </div>
+      <div class="tag justify-start">
+        <i class="fa-solid fa-graduation-cap text-[#A855F7]"></i>
+        <span class="text-sm">Finance Education Platforms</span>
+      </div>
+      <div class="tag justify-start">
+        <i class="fa-solid fa-building-columns text-[#FFD700]"></i>
+        <span class="text-sm">Mutual Fund Platforms</span>
+      </div>
+      <div class="tag justify-start">
+        <i class="fa-solid fa-credit-card text-[#00D09C]"></i>
+        <span class="text-sm">Credit / BNPL Apps</span>
+      </div>
+      <div class="tag justify-start">
+        <i class="fa-solid fa-shield-halved text-[#FFD700]"></i>
+        <span class="text-sm">Insurance Platforms</span>
+      </div>
+      <div class="tag justify-start">
+        <i class="fa-solid fa-laptop text-[#A855F7]"></i>
+        <span class="text-sm">Online Business Tools</span>
+      </div>
+    </div>
+
+    <div class="mt-6 p-4 bg-[#00D09C08] border border-[#00D09C20] rounded-xl text-sm text-gray-300">
+      <i class="fa-solid fa-sparkles text-[#FFD700] mr-2"></i>
+      <strong class="text-white">Open to first brand partnership.</strong> Early partners get priority placement and introductory rates.
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ COMPLIANCE ═══════════════════════════════ -->
+<section class="max-w-6xl mx-auto px-6 lg:px-8 pb-14">
+  <div class="card p-7 lg:p-8" style="border-color:#FFD70025;background:linear-gradient(135deg,#FFD70005,#141920)">
+    <div class="flex items-start gap-4">
+      <div class="w-12 h-12 rounded-xl bg-[#FFD70015] flex items-center justify-center flex-shrink-0">
+        <i class="fa-solid fa-shield-halved text-[#FFD700] text-xl"></i>
+      </div>
+      <div>
+        <h3 class="font-display text-xl font-bold mb-3">Compliance &amp; Transparency</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-300">
+          <div class="flex items-start gap-2">
+            <i class="fa-solid fa-check-circle text-[#00D09C] mt-0.5 flex-shrink-0"></i>
+            <span>All paid content marked <strong class="text-[#FFD700]">#Ad</strong> as per ASCI guidelines</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <i class="fa-solid fa-check-circle text-[#00D09C] mt-0.5 flex-shrink-0"></i>
+            <span>No stock tips or guaranteed return claims — <strong class="text-white">feature-education only</strong></span>
+          </div>
+          <div class="flex items-start gap-2">
+            <i class="fa-solid fa-check-circle text-[#00D09C] mt-0.5 flex-shrink-0"></i>
+            <span>SEBI influencer guidelines followed for all financial content</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="section-divider">
+
+<!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+<section id="contact" class="max-w-6xl mx-auto px-6 lg:px-8 py-14">
+  <div class="glow-border p-8 lg:p-12 text-center">
+    <div class="chip inline-block mb-4">Response within 24 hours</div>
+    <h2 class="font-display text-2xl lg:text-4xl font-bold mb-3">
+      Let's Create <span class="gradient-text">Impact Together</span>
+    </h2>
+    <p class="text-gray-400 mb-10 max-w-xl mx-auto">
+      Reach India's most active retail investors — 87.6% male, 68% aged 18–34, concentrated in Mumbai, Delhi, Pune &amp; Bangalore.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-3xl mx-auto">
+      <a href="mailto:vikkygangwar267@gmail.com" target="_blank" class="card p-6 hover:border-[#00D09C] text-center group">
+        <i class="fa-solid fa-envelope text-[#00D09C] text-2xl mb-3 group-hover:scale-110 transition-transform inline-block"></i>
+        <div class="text-xs text-gray-400 mb-1">Email</div>
+        <div class="text-sm font-semibold break-all">vikkygangwar267@gmail.com</div>
+      </a>
+
+      <a href="https://www.instagram.com/unfiltered.vinod/" target="_blank" rel="noopener" class="card p-6 hover:border-[#E1306C] text-center group">
+        <i class="fa-brands fa-instagram text-[#E1306C] text-2xl mb-3 group-hover:scale-110 transition-transform inline-block"></i>
+        <div class="text-xs text-gray-400 mb-1">Instagram DM</div>
+        <div class="text-sm font-semibold">@unfiltered.vinod</div>
+      </a>
+
+      <div class="card p-6 text-center">
+        <i class="fa-solid fa-location-dot text-[#FFD700] text-2xl mb-3"></i>
+        <div class="text-xs text-gray-400 mb-1">Based In</div>
+        <div class="text-sm font-semibold">Mumbai, Maharashtra</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+<footer class="border-t border-[#ffffff08]">
+  <div class="max-w-6xl mx-auto px-6 lg:px-8 py-7 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-500">
+    <div>
+      <span class="font-semibold text-gray-400">@unfiltered.vinod</span> · Vinod Gangwar · Media Kit 2026
+    </div>
+    <div class="text-center sm:text-right">
+      Rates valid for current period · Subject to change based on campaign scope<br>
+      Data source: Instagram Insights · July 17 – August 17, 2026
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

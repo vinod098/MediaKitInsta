@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+@font-face {
+  font-family: "Optimistic";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Optimistic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
+}
+:where(html) {
+  font-family: "Optimistic", system-ui, sans-serif;
+}
+:where(code, pre, kbd, samp) {
+  font-family: "Optimistic Mono", ui-monospace, monospace;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinod Gangwar | @unfiltered.vinod - Media Kit August 2026</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+    * {
+        font-family: 'Inter', sans-serif;
+    }
+    .font-display {
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    body {
+        background: #0F1419;
+        color: #FFFFFF;
+    }
+    .gradient-text {
+        background: linear-gradient(135deg, #00D09C 0%, #FFD700 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .gradient-border {
+        position: relative;
+        background: #1A1F26;
+        border-radius: 16px;
+    }
+    .gradient-border::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 16px;
+        padding: 1px;
+        background: linear-gradient(135deg, #00D09C40, #FFD70040);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    }
+    .stat-card {
+        background: linear-gradient(135deg, #1A1F26 0%, #14181D 100%);
+        border: 1px solid #00D09C20;
+        transition: all 0.3s ease;
+    }
+    .stat-card:hover {
+        transform: translateY(-4px);
+        border-color: #00D09C60;
+        box-shadow: 0 12px 24px #00D09C15;
+    }
+    .gold-glow {
+        box-shadow: 0 0 40px #FFD70015;
+    }
+    .green-glow {
+        box-shadow: 0 0 40px #00D09C15;
+    }
+    .animate-counter {
+        animation: countUp 2s ease-out forwards;
+    }
+    @keyframes countUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .chip {
+        background: #00D09C15;
+        border: 1px solid #00D09C40;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    @media print {
+        body {
+            background: #FFFFFF;
+            color: #0F1419;
+        }
+        .gradient-border, .stat-card {
+            background: #F8F9FA !important;
+            border: 1px solid #E5E7EB !important;
+        }
+        .gradient-text {
+            background: #00D09C;
+            -webkit-text-fill-color: #00D09C;
+            color: #00D09C;
+        }
+        .no-print {
+            display: none !important;
+        }
+        .stat-card:hover {
+            transform: none;
+            box-shadow: none;
+        }
+    }
+</style>
+</head>
+<body class="antialiased">
+    <!-- Header -->
+    <header class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-[#00D09C08] via-transparent to-[#FFD70008]"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 relative">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+                <div class="lg:col-span-2 order-2 lg:order-1">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="chip px-3 py-1 rounded-full text-xs font-semibold text-[#00D09C]">
+                            <i class="fa-solid fa-circle text-[8px] animate-pulse mr-1"></i>
+                            Available for Partnerships
+                        </div>
+                        <div class="chip px-3 py-1 rounded-full text-xs font-semibold text-[#FFD700]">
+                            August 2026
+                        </div>
+                    </div>
+                    <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold mb-3">
+                        Vinod Gangwar
+                    </h1>
+                    <div class="flex flex-wrap items-center gap-4 mb-4">
+                        <a href="https://instagram.com/unfiltered.vinod" class="text-xl sm:text-2xl gradient-text font-semibold hover:opacity-80 transition">
+                            @unfiltered.vinod
+                        </a>
+                        <div class="flex items-center gap-2 text-gray-400">
+                            <i class="fa-solid fa-location-dot text-[#00D09C]"></i>
+                            <span class="text-sm sm:text-base">Mumbai, India</span>
+                        </div>
+                    </div>
+                    <p class="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-2xl">
+                        Finance + Trading content in simple Hindi for retail investors
+                    </p>
+                    <div class="flex flex-wrap gap-3 mt-6">
+                        <a href="#contact" class="bg-[#00D09C] hover:bg-[#00B887] text-[#0F1419] px-6 py-3 rounded-xl font-semibold transition-all hover:scale-105 no-print">
+                            <i class="fa-solid fa-envelope mr-2"></i>Get In Touch
+                        </a>
+                        <button onclick="window.print()" class="bg-[#1A1F26] border border-[#00D09C40] hover:border-[#00D09C] px-6 py-3 rounded-xl font-semibold transition-all no-print">
+                            <i class="fa-solid fa-download mr-2"></i>Save as PDF
+                        </button>
+                    </div>
+                <div class="order-1 lg:order-2 flex justify-center lg:justify-end">
+                    <div class="relative">
+                        <div class="w-40 h-40 sm:w-48 sm:h-48 rounded-full bg-gradient-to-br from-[#00D09C] to-[#FFD700] p-1 gold-glow">
+                            <div class="w-full h-full rounded-full bg-[#1A1F26] flex items-center justify-center overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80" alt="Vinod Gangwar" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 200 200\'%3E%3Crect fill=\'%231A1F26\' width=\'200\' height=\'200\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'Arial\' font-size=\'80\' fill=\'%2300D09C\'%3EVG%3C/text%3E%3C/svg%3E'">
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-2 -right-2 bg-[#00D09C] text-[#0F1419] px-3 py-1 rounded-full text-xs font-bold">
+                            <i class="fa-solid fa-check"></i> Verified
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <div class="gradient-border p-6 sm:p-8">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-lg bg-[#00D09C20] flex items-center justify-center">
+                    <i class="fa-solid fa-user text-[#00D09C]"></i>
+                </div>
+                <h2 class="font-display text-2xl sm:text-3xl font-bold">About</h2>
+            </div>
+            <p class="text-gray-300 text-base sm:text-lg leading-relaxed mb-6">
+                Finance + Trading content creator helping retail investors understand markets in simple Hindi. Breaking down complex financial concepts, market analysis, and trading strategies into easy-to-digest content for beginners.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-users text-[#00D09C] mt-1"></i>
+                    <div>
+                        <div class="font-semibold text-sm text-gray-400">Audience Age</div>
+                        <div class="text-white">18-34 years</div>
+                    </div>
+                <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-briefcase text-[#FFD700] mt-1"></i>
+                    <div>
+                        <div class="font-semibold text-sm text-gray-400">Target</div>
+                        <div class="text-white">New Traders & Investors</div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-map-location-dot text-[#00D09C] mt-1"></i>
+                    <div>
+                        <div class="font-semibold text-sm text-gray-400">Geography</div>
+                        <div class="text-white">Tier 1/2 India</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Stats -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <div class="text-center mb-10">
+            <h2 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold mb-3">
+                Last 30 Days <span class="gradient-text">Performance</span>
+            </h2>
+            <p class="text-gray-400">Data from Instagram Insights • July 2026</p>
+        </div>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6">
+            <div class="stat-card rounded-2xl p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 rounded-xl bg-[#00D09C20] flex items-center justify-center">
+                        <i class="fa-solid fa-eye text-[#00D09C] text-xl"></i>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-xs text-gray-400">Avg/Day</div>
+                        <div class="text-sm font-semibold text-[#00D09C]">11K</div>
+                    </div>
+                </div>
+                <div class="text-3xl sm:text-4xl font-bold font-display mb-1">329,012</div>
+                <div class="text-gray-400 text-sm">Total Views</div>
+            </div>
+
+            <div class="stat-card rounded-2xl p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 rounded-xl bg-[#FFD70020] flex items-center justify-center">
+                        <i class="fa-solid fa-heart text-[#FFD700] text-xl"></i>
+                    </div>
+                    <div class="chip px-2 py-1 rounded text-xs font-bold text-[#00D09C]">
+                        3.5x Industry
+                    </div>
+                </div>
+                <div class="text-3xl sm:text-4xl font-bold font-display mb-1">23,030</div>
+                <div class="text-gray-400 text-sm mb-2">Interactions</div>
+                <div class="text-xs text-gray-500">7% Engagement Rate — Industry avg is 2-3%</div>
+            </div>
+
+            <div class="stat-card rounded-2xl p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 rounded-xl bg-[#00D09C20] flex items-center justify-center">
+                        <i class="fa-solid fa-user-plus text-[#00D09C] text-xl"></i>
+                    </div>
+                    <div class="text-xs text-[#00D09C] font-semibold">
+                        <i class="fa-solid fa-arrow-trend-up"></i> Growing
+                    </div>
+                </div>
+                <div class="text-3xl sm:text-4xl font-bold font-display mb-1">+386</div>
+                <div class="text-gray-400 text-sm">Net Followers</div>
+                <div class="text-xs text-gray-500 mt-2">Growing steadily</div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
+            <div class="stat-card rounded-2xl p-6">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-12 h-12 rounded-xl bg-[#FFD70020] flex items-center justify-center">
+                        <i class="fa-solid fa-chart-line text-[#FFD700] text-xl"></i>
+                    </div>
+                    <div>
+                        <div class="font-semibold">Audience Reach</div>
+                        <div class="text-xs text-gray-500">Discovery Engine</div>
+                    </div>
+                <div class="text-3xl sm:text-4xl font-bold font-display mb-2">97.4%</div>
+                <div class="text-gray-400 text-sm">Non-Followers</div>
+                <div class="mt-3 p-3 bg-[#00D09C10] rounded-lg border border-[#00D09C30]">
+                    <div class="text-xs text-[#00D09C] font-semibold">
+                        <i class="fa-solid fa-bullseye mr-1"></i>Brand reaches NEW users
+                    </div>
+                </div>
+            </div>
+
+            <div class="stat-card rounded-2xl p-6">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-12 h-12 rounded-xl bg-[#00D09C20] flex items-center justify-center">
+                        <i class="fa-solid fa-video text-[#00D09C] text-xl"></i>
+                    </div>
+                    <div>
+                        <div class="font-semibold">Top Content Format</div>
+                        <div class="text-xs text-gray-500">Best Performer</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-sm text-gray-400">Reels</span>
+                        <span class="text-lg font-bold text-[#00D09C]">327K views</span>
+                    </div>
+                    <div class="w-full bg-[#1A1F26] rounded-full h-2">
+                        <div class="bg-gradient-to-r from-[#00D09C] to-[#FFD700] h-2 rounded-full" style="width: 99.6%"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-sm text-gray-400">Stories</span>
+                        <span class="text-sm font-semibold text-gray-500">1.3K views</span>
+                    </div>
+                    <div class="w-full bg-[#1A1F26] rounded-full h-2">
+                        <div class="bg-gray-600 h-2 rounded-full" style="width: 0.4%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Insights -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <div class="text-center mb-10">
+            <h2 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold mb-3">
+                Key Insights <span class="gradient-text">for Brands</span>
+            </h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+            <div class="gradient-border p-6 text-center green-glow">
+                <div class="w-16 h-16 rounded-2xl bg-[#00D09C20] flex items-center justify-center mx-auto mb-4">
+                    <i class="fa-solid fa-rocket text-[#00D09C] text-2xl"></i>
+                </div>
+                <h3 class="font-display text-xl font-bold mb-2">Viral Potential</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    2 Reels crossing <span class="text-white font-semibold">30K+ views</span> organically with strong saves & shares
+                </p>
+            </div>
+
+            <div class="gradient-border p-6 text-center gold-glow">
+                <div class="w-16 h-16 rounded-2xl bg-[#FFD70020] flex items-center justify-center mx-auto mb-4">
+                    <i class="fa-solid fa-shield-heart text-[#FFD700] text-2xl"></i>
+                </div>
+                <h3 class="font-display text-xl font-bold mb-2">High Trust</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    <span class="text-white font-semibold">7% engagement</span> shows audience actively learns & trusts the content
+                </p>
+            </div>
+
+            <div class="gradient-border p-6 text-center green-glow">
+                <div class="w-16 h-16 rounded-2xl bg-[#00D09C20] flex items-center justify-center mx-auto mb-4">
+                    <i class="fa-solid fa-compass text-[#00D09C] text-2xl"></i>
+                </div>
+                <h3 class="font-display text-xl font-bold mb-2">Explore Page Reach</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    <span class="text-white font-semibold">97%+ from non-followers</span> means every campaign gets fresh eyeballs
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Collaborations -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <div class="gradient-border p-6 sm:p-8">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-lg bg-[#FFD70020] flex items-center justify-center">
+                    <i class="fa-solid fa-handshake text-[#FFD700]"></i>
+                </div>
+                <h2 class="font-display text-2xl sm:text-3xl font-bold">Past Collaborations</h2>
+            </div>
+            <div class="bg-[#00D09C10] border border-[#00D09C30] rounded-xl p-6 mb-6">
+                <p class="text-lg text-center">
+                    <i class="fa-solid fa-sparkles text-[#FFD700] mr-2"></i>
+                    <span class="font-semibold">Open to first brand partnership</span>
+                </p>
+            </div>
+            <div>
+                <div class="text-sm font-semibold text-gray-400 mb-3">Ideal For:</div>
+                <div class="flex flex-wrap gap-2">
+                    <div class="chip px-4 py-2 rounded-lg text-sm">
+                        <i class="fa-solid fa-chart-line text-[#00D09C] mr-2"></i>Stock Broking Platforms
+                    </div>
+                    <div class="chip px-4 py-2 rounded-lg text-sm">
+                        <i class="fa-solid fa-mobile-screen text-[#FFD700] mr-2"></i>Fintech Apps
+                    </div>
+                    <div class="chip px-4 py-2 rounded-lg text-sm">
+                        <i class="fa-solid fa-wrench text-[#00D09C] mr-2"></i>Trading Tools
+                    </div>
+                    <div class="chip px-4 py-2 rounded-lg text-sm">
+                        <i class="fa-solid fa-graduation-cap text-[#FFD700] mr-2"></i>Finance Education Apps
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Packages -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <div class="text-center mb-10">
+            <h2 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold mb-3">
+                Content Packages <span class="gradient-text">| August 2026</span>
+            </h2>
+            <p class="text-gray-400">Customized solutions for your brand goals</p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
+            <div class="stat-card rounded-2xl p-6 sm:p-8">
+                <div class="flex items-start justify-between mb-4">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <i class="fa-brands fa-instagram text-[#00D09C] text-xl"></i>
+                            <h3 class="font-display text-xl font-bold">1x Instagram Reel</h3>
+                        </div>
+                        <div class="text-gray-400 text-sm">Concept + Script + Edit included</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-3xl font-bold gradient-text">₹12,000</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stat-card rounded-2xl p-6 sm:p-8">
+                <div class="flex items-start justify-between mb-4">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <i class="fa-solid fa-images text-[#FFD700] text-xl"></i>
+                            <h3 class="font-display text-xl font-bold">3x Story Frames</h3>
+                        </div>
+                        <div class="text-gray-400 text-sm">Swipe-up link + CTA</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-3xl font-bold gradient-text">₹3,000</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stat-card rounded-2xl p-6 sm:p-8 border-2 border-[#00D09C]">
+                <div class="absolute -top-3 left-6 bg-[#00D09C] text-[#0F1419] px-3 py-1 rounded-full text-xs font-bold">
+                    BEST VALUE
+                </div>
+                <div class="flex items-start justify-between mb-4 mt-2">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <i class="fa-solid fa-fire text-[#FFD700] text-xl"></i>
+                            <h3 class="font-display text-xl font-bold">Reel + Story Combo</h3>
+                        </div>
+                        <div class="text-gray-400 text-sm">Best for conversions</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-3xl font-bold gradient-text">₹14,000</div>
+                        <div class="text-xs text-gray-500 line-through">₹15,000</div>
+                    </div>
+                </div>
+                <div class="bg-[#00D09C10] rounded-lg p-3 border border-[#00D09C30]">
+                    <div class="text-xs text-[#00D09C] font-semibold">
+                        <i class="fa-solid fa-tag mr-1"></i>Save ₹1,000 with combo
+                    </div>
+                </div>
+            </div>
+
+            <div class="stat-card rounded-2xl p-6 sm:p-8">
+                <div class="flex items-start justify-between mb-4">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <i class="fa-solid fa-coins text-[#FFD700] text-xl"></i>
+                            <h3 class="font-display text-xl font-bold">CPA Bonus</h3>
+                        </div>
+                        <div class="text-gray-400 text-sm">On top of base fee, with tracking dashboard</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-3xl font-bold gradient-text">₹600</div>
+                        <div class="text-xs text-gray-500">per KYC account</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance Note -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="gradient-border p-6 sm:p-8 bg-gradient-to-br from-[#FFD70008] to-[#00D09C08]">
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-xl bg-[#FFD70020] flex items-center justify-center flex-shrink-0">
+                    <i class="fa-solid fa-shield-halved text-[#FFD700] text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-display text-xl font-bold mb-3">Compliance & Transparency</h3>
+                    <p class="text-gray-300 text-sm sm:text-base leading-relaxed">
+                        All paid content marked <span class="text-[#FFD700] font-semibold">#Ad</span> as per ASCI + SEBI guidelines. 
+                        Do not provide stock tips or guaranteed returns. <span class="text-white font-medium">Feature-education only.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <div class="gradient-border p-6 sm:p-10 text-center">
+            <h2 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold mb-3">
+                Let's Create <span class="gradient-text">Impact Together</span>
+            </h2>
+            <p class="text-gray-400 mb-8">Ready to reach 300K+ retail investors in India?</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+                <a href="mailto:vikkygangwar267@gmail.com" class="group">
+                    <div class="stat-card rounded-xl p-6 h-full hover:border-[#00D09C]">
+                        <i class="fa-solid fa-envelope text-[#00D09C] text-2xl mb-3 group-hover:scale-110 transition"></i>
+                        <div class="text-xs text-gray-400 mb-1">Email</div>
+                        <div class="text-sm font-semibold break-all">vikkygangwar267@gmail.com</div>
+                    </div>
+                </a>
+                
+                <div class="stat-card rounded-xl p-6 h-full">
+                    <i class="fa-solid fa-location-dot text-[#FFD700] text-2xl mb-3"></i>
+                    <div class="text-xs text-gray-400 mb-1">Location</div>
+                    <div class="text-sm font-semibold">Mumbai, Maharashtra</div>
+                </div>
+                
+                <div class="stat-card rounded-xl p-6 h-full">
+                    <i class="fa-solid fa-clock text-[#00D09C] text-2xl mb-3"></i>
+                    <div class="text-xs text-gray-400 mb-1">Response Time</div>
+                    <div class="text-sm font-semibold">Within 24 hours</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-[#1A1F26]">
+        <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+            <div>
+                <span class="font-semibold text-gray-400">@unfiltered.vinod</span> • Media Kit August 2026
+            </div>
+            <div class="text-xs text-center sm:text-right">
+                Rates valid for August 2026. Subject to change based on campaign scope.
+            </div>
+        </div>
+    </footer>
+
+<script>(function(){document.addEventListener("click",function(e){var a=e.target.closest("[data-product-id]");if(!a)return;e.preventDefault();var pid=a.getAttribute("data-product-id");if(pid)parent.postMessage({type:"ecto-artifact-link-click",productId:pid},"*")})})();</script>
+<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slot")!==null)}function findInlineMediaSlot(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(isInlineMediaSlotElement(node))return node}return null}function readInlineMediaUrl(node){if(!node)return null;return node.getAttribute&&((node.getAttribute("data-clippy-inline-media-url")||node.getAttribute("data-url")||node.getAttribute("data_url")))||node.href||null}function stripHash(url){return String(url).replace(/#.*$/,"")}function urlsMatch(a,b){if(!a||!b)return false;try{return stripHash(new URL(a,loc).href)===stripHash(new URL(b,loc).href)}catch(_){return stripHash(a)===stripHash(b)}}function isFirstPartyReelUrl(value){try{var url=new URL(value,loc);if(url.protocol!=="https:")return false;var host=url.hostname.toLowerCase();var supported=host==="instagram.com"||host.endsWith(".instagram.com")||host==="facebook.com"||host.endsWith(".facebook.com");return supported&&/\/reels?\//i.test(url.pathname)}catch(_){return false}}function isInlineMediaUrlClick(node,href){var slot=findInlineMediaSlot(node);if(!slot)return false;var slotUrl=readInlineMediaUrl(slot);if(slotUrl)return urlsMatch(href,slotUrl);return isFirstPartyReelUrl(href)}function findDataHref(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(node.getAttribute){var href=node.getAttribute("data-href")||node.getAttribute("data-url");if(href)return{href:href,node:node}}}return null}var nativeOpen=window.open;window.open=function(url){if(parent!==window&&typeof url==="string"&&/^https?:\/\//.test(url)){parent.postMessage({type:"ecto:usercontent-link-click",href:url},"*");return null}return nativeOpen?nativeOpen.apply(window,arguments):null};document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;if(parent===window)return;var a=target.closest?target.closest("a[href]"):null;if(a&&a.href&&/^https?:\/\//.test(a.href)&&a.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(a,a.href))return;var productId=extractProductId(target)||extractProductId(a);if(productId){e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*");return}e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:a.href},"*");return}var dataHref=findDataHref(target);if(dataHref&&/^https?:\/\//.test(dataHref.href)&&dataHref.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(dataHref.node,dataHref.href))return;e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:dataHref.href},"*")}},true)})();</script><script>(function(){var FOCUS_TYPE="ecto:artifact-focus-request";var CLOSE_TYPE="ecto:artifact-close-request";function focusArtifactDocument(){var body=document.body;if(!body)return;try{window.focus();}catch(e){}if(!body.hasAttribute("tabindex"))body.setAttribute("tabindex","-1");try{body.focus({preventScroll:true});}catch(e){try{body.focus();}catch(e2){}}}window.addEventListener("message",function(event){if(event.source!==window.parent)return;var data=event.data;if(!data||typeof data!=="object"||data.type!==FOCUS_TYPE)return;if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",focusArtifactDocument,{once:true});return;}focusArtifactDocument();});window.addEventListener("keydown",function(event){if(event.key!=="Escape")return;window.setTimeout(function(){if(event.defaultPrevented)return;window.parent.postMessage({type:CLOSE_TYPE},"*");},0);});})();</script></body>
+</html>
