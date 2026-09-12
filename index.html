@@ -128,6 +128,17 @@
 
   html { scroll-behavior: smooth; }
 </style>
+<script>
+  (function(){
+    var correct = 'vinod2026';
+    var key = 'mkit_auth';
+    if(sessionStorage.getItem(key) !== correct){
+      var pwd = prompt('Enter password to view this page:');
+      if(pwd !== correct){ document.documentElement.innerHTML = '<div style="font-family:sans-serif;text-align:center;padding:80px;background:#0A0E14;color:#fff;height:100vh"><h2 style="color:#00D09C">Access Denied</h2><p>Incorrect password.</p></div>'; return; }
+      sessionStorage.setItem(key, correct);
+    }
+  })();
+</script>
 </head>
 <body class="antialiased">
 
